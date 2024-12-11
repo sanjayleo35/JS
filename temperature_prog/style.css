@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+center{
+    background-color: aliceblue;
+    max-width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px hsl(0, 0%, 100%);
+    
+}
+#number{
+    width: 50%;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px hsl(0, 2%, 8%);;
+    border: solid;
+}
+h1{
+    color: rgb(103, 164, 218);
+}
+label{
+    color: rgb(224, 125, 67);
+    font-weight: bolder;
+    font-size: 1em;
+}
+button{
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make it inline */
+    font-size: 16px; /* Set font size */
+    margin: 4px 2px; /* Margins */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 12px; /* Rounded corners */
+    transition: background-color 0.3s ease; 
+}
+button:hover{
+    background-color: #45a049;
+}

@@ -1,0 +1,13 @@
+#emoji{
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+body{
+    margin: 0;
+}

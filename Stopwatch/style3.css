@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/peakpx.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#mine{
+    font-family: Arial, sans-serif;
+    font-size: 4rem;
+    color: rgba(207, 15, 8, 0.893);
+
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid;
+    border-radius: 50px;
+    padding: 30px;
+    backdrop-filter: blur(3px);
+}
+
+#display{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(199, 80, 6);
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 25px;
+    width: 800px; 
+    text-align: center; 
+    white-space: nowrap; 
+}
+
+
+#control button {
+    font-size: 30px; 
+    padding: 15px 30px; 
+    border-radius: 10px; 
+    border: none; 
+    color: white; 
+    cursor: pointer; 
+    transition: background-color 0.5s ease; 
+}
+#startbtn{
+    background-color: aqua;
+}
+#startbtn:hover{
+    background-color: aquamarine;
+}
+#startbtn:active{
+    background-color: azure;
+}
+#stopbtn{
+    background-color: red;
+}
+#stopbtn:hover{
+    background-color: rgb(140, 42, 29);
+}
+#stopbtn:active{
+    background-color: rgb(134, 83, 83);
+}
+#resetbtn{
+    background-color: green;
+}
+#resetbtn:hover{
+    background-color: lightgreen;
+}
+#resetbtn:active{
+    background-color: rgb(38, 131, 38);
+}

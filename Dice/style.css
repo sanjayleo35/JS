@@ -1,0 +1,34 @@
+#container{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    background-color: aqua;
+    border-radius: 10%;
+    font-size: 1.5rem;
+    padding: 15px 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgb(198, 245, 245) ;
+}
+button:active{
+    background-color: rgb(112, 211, 211);
+}
+input{
+    font-size: 2rem;
+    width: 150px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+.dice {
+    width: 100px;  
+    height: auto;  
+    margin: 5px;   
+}

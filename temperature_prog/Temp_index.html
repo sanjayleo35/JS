@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Conversion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h1>Temperature Conversion</h1>
+        <input type="number" id="number" value="0"><br><br>
+        <input type="radio" id="Fran" name="Convert" value="CtoF">
+        <label for="Fran">Celsius → Fahrenheit</label><br>
+        <input type="radio" id="celsius" name="Convert" value="FtoC">
+        <label for="celsius">Fahrenheit → Celsius</label><br><br>
+        <button type="button" onclick="convert()">Submit</button> <!-- Updated function call -->
+        <p id="Result"></p>
+    </center>
+
+    <script src="script.js"></script>
+</body>
+</html>

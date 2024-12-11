@@ -1,0 +1,30 @@
+[
+    {
+        "name":"sanjay",
+        "age": 23,
+        "profession":"student",
+        "isEmployee":true
+    },
+
+    {
+        "name":"Dharu",
+        "age": 17,
+        "profession":"student",
+        "isEmployee":false
+    },
+
+    {
+        "name":"siva",
+        "age": 22,
+        "profession":"student",
+        "isEmployee":true
+    },
+
+    {
+        "name":"Rama",
+        "age": 22,
+        "profession":"student",
+        "isEmployee":true
+    }
+
+]
